@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        ::placeholder{
+                    font-size: larger;
+                    text-align: left;
+                    margin-right: 10px;
+        }
+        .center{
+            text-align: center;
+            margin-top: 150px;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;   
+        }
+
+        .buttons button{
+            width: 120px;
+            height: 35px;
+            border-radius: 10px;
+        }
+        #search{
+            font-size: medium;
+            width: 90%;
+            max-width: 720px;
+            height: 45px;
+            margin-top: 25px;
+            border-radius: 25px;
+        }
+        #para{
+            text-align: center;
+            margin-top: 30px;
+            font-size: small;
+            font-style: normal;
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="text-align: end; color: blue;">
+        <a href="images.html" style="color: blue;">Images</a>
+        <a href="advanced.html" style="margin-left: 20px;">Advance Search</a>
+    </div>
+    <div class = "center">
+        <img src="Google.png" alt="Google Icon">
+        <form action="https://www.google.com/search" method="GET">
+    <input id="search" type="text" name="q" placeholder="Search Google or type a URL">
+
+    <div class="buttons">
+        <button type="submit">Google Search</button>
+        <button type="submit" name="btnI">I'm Feeling Lucky</button>
+    </div>
+</form>
+    </div>
+    <div id="para">
+        Google offered in:
+        <a dir="rtl" href="https://www.google.com/setprefs?sig=0_OA_CMkt6nsviI2VEwkrkxd2JkHw%3D&amp;hl=ur&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjAu9rG0YeTAxV-WkEAHVIwFB4Q2ZgBCB4">اردو</a>
+        <a dir="rtl" href="https://www.google.com/setprefs?sig=0_OA_CMkt6nsviI2VEwkrkxd2JkHw%3D&amp;hl=ps&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjAu9rG0YeTAxV-WkEAHVIwFB4Q2ZgBCB8">پښتو</a>
+        <a dir="rtl" href="https://www.google.com/setprefs?sig=0_OA_CMkt6nsviI2VEwkrkxd2JkHw%3D&amp;hl=sd&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjAu9rG0YeTAxV-WkEAHVIwFB4Q2ZgBCCA">سنڌي</a>
+    </div>
+    
+</body>
+</html>
